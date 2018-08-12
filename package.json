@@ -8,8 +8,7 @@
   "scripts": {
     "server": "php server/bin/console server:run",
     "vue": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "dev": "npm run server | npm run vue",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "dev": "npm run server | npm run vue"
   },
   "repository":
   {
